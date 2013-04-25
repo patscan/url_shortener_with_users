@@ -1,0 +1,100 @@
+body {
+  background-color: #bada55;
+}
+
+.container {
+  margin: 70px auto;
+  /*margin: 20px auto;*/
+  width: 550px;
+  padding: 30px 20px 20px 20px;
+  border: 1px dotted black;
+  background-color: white;
+/*  opacity:0.4;*/
+
+}
+th {
+  text-align: left;
+}
+
+#jkai {
+  width: 550px;
+
+}
+
+#title {
+  float: left;
+  width: 500px;
+  margin-left: 150px;
+  line-height: 25px;
+}
+
+#log_in_out {
+
+  margin-right: -50px;
+  float: right;
+  width: 300px;
+  line-height: 25px;
+}
+
+#log_in_out a {
+  color: white;
+  text-decoration: none;
+}
+
+#header {
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  height: 25px;
+}
+
+#signup_button {
+  margin-top: 100px;
+  margin-left: 200px;
+
+
+  -moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+  background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+  background-color:#79bbff;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #84bbf3;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:31px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #528ecc;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#color_link {
+  color: blue;
+}
+
+#signup_button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+  background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+  background-color:#378de5;
+}
+
+#signup_button:active {
+  position:relative;
+  top:1px;
+}
+

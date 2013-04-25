@@ -1,0 +1,25 @@
+<div class="container">
+
+
+  <form name="input" action="/short_url" method="post">
+    Enter a long URL to make tiny: <input type="text" name="full"> <input type="submit" value="Booyah!">
+  </form>
+  <p><em>Usage: Please include full path including http:// or https://.</em></p>
+
+  <table>
+    <th>
+      <td>Full</td>
+      <td>Short</td>
+      <td>Click Count</td>
+    </th>
+  <% Url.find_all_by_users_id(@user.id).each do |url| %>
+    <tr>
+      <td><%= url.full %></td>
+      <td><%= url.short %></td>
+      <td><%= url.click_count %></td>
+    </tr>
+  <% end %>
+  </table>
+
+
+</div>
